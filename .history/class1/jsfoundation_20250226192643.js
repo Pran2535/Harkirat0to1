@@ -51,4 +51,3 @@ for (let a = 0; a < 1000000000000000; a++) {
 }
 
 console.log(sum);
-// javascript is just time compiled language thats why it do not takes full time
