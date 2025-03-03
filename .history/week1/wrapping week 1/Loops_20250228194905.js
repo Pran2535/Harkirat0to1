@@ -29,4 +29,4 @@ function greet(name, callback) {
   callback();
 }
 // when we pass one function as an argument to another function, it is called a callback function
-// bhai async await ka use kar sahi rhta hai and sahi hoga
+// bhai as
