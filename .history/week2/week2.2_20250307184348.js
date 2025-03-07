@@ -5,11 +5,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 app.get("/", (req, res) => {
-  let ans = 10;
-  for (let i = 0; i < 10000000000000000000; i++) {
-    ans += i;
-  }
-  res.send(ans.toString());
+  res.send("Hello World");
 });
 app.listen(port, () => {
   console.log(`server is running on port ${port}`);
