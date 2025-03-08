@@ -9,7 +9,12 @@ app.post("/backend-api/conversation", function (req, res) {
   const message = req.body.message;
 });
 app.get("/", (req, res) => {
-  res.send("hello world");
+  let ans = 10;
+  for (let i = 0; i < 10000000000000000000; i++) {
+    ans += i;
+  }
+
+  res.send(ans.toString());
 });
 app.post("/conversations", (req, res) => {
   res.send("Hello from server");

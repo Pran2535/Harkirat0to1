@@ -6,7 +6,6 @@ function display(data) {
   console.log(data);
 }
 // sum(1, 2);
-// sum(1,3);
 
 // display(ans);
 function calcaulateValue(a, b, type) {
